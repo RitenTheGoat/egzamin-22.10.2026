@@ -33,7 +33,7 @@ nazwa funkcji: zapisz
 opis funkcji: funkcja zapisuje dane z inputów do stanów stringów które wyświetlają się na stronie po kliknięciu przycisku
 parametry: brak
 zwracany typ i opis: brak
-autor: 07242003475
+autor: 00000000000
 */
 function zapisz(){
   setZapisaneAdres(adres)
@@ -44,7 +44,7 @@ function zapisz(){
 
   return (
     <div className="App" style={{textAlign: "left"}}>
-  <h1>Menedżer haseł - wykonał 07242003475</h1>
+  <h1>Menedżer haseł - wykonał 00000000000</h1>
   <Form>
     <Form.Label>Adres WWW:</Form.Label>
     <Form.Control

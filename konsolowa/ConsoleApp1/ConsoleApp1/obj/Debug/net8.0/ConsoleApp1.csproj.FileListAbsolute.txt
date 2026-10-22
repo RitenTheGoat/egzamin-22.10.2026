@@ -12,3 +12,4 @@ C:\Users\dominik.koseski\Documents\GitHub\07242003475-22.10.2026\konsolowa\Conso
 C:\Users\dominik.koseski\Documents\GitHub\07242003475-22.10.2026\konsolowa\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.pdb
 C:\Users\dominik.koseski\Documents\GitHub\07242003475-22.10.2026\konsolowa\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.genruntimeconfig.cache
 C:\Users\dominik.koseski\Documents\GitHub\07242003475-22.10.2026\konsolowa\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ref\ConsoleApp1.dll
+C:\Users\dominik.koseski\Documents\GitHub\07242003475-22.10.2026\konsolowa\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.sourcelink.json

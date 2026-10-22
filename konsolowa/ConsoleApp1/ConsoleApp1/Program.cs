@@ -8,7 +8,7 @@ class Program
     opis funkcji: funkacja tworzy hasło z 12 znakami, 3 literami małymi, 3 duzymi, 2 znaki specjalne, 2 znaki polskie, 2 cyfry, następnie miesza je w losowy sposób
     parametry: brak
     zwracany typ i opis: zwraca hasło w postaci stringa które zosało pomieszane w losowy sposób
-    autor: 07242003475
+    autor: 00000000000
      */
     static string Haslo()
     {
