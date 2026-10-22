@@ -9,18 +9,36 @@ function App() {
   const [login, setLogin] = useState("")
   const [haslo, setHaslo] = useState("")
   const [check, setCheck] = useState(true)
+
+    const [zapisaneadres, setZapisaneAdres] = useState("")
+  const [zapisanelogin, setZapisaneLogin] = useState("")
+  const [zapisanehaslo, setZapisaneHaslo] = useState("")
+
+
 function zminen(){
   if(check === true){
     setCheck(false)
+    setHaslo("")
     return
   }
   
   if(check === false){
     setCheck(true)
+        setHaslo("")
     return  
   }
 }
+/*
+nazwa funkcji: zapisz
+opis funkcji: funkcja zapisuje dane z inputów do stanów stringów które wyświetlają się na stronie po kliknięciu przycisku
+parametry: brak
+zwracany typ i opis: brak
+autor: 07242003475
+*/
 function zapisz(){
+  setZapisaneAdres(adres)
+  setZapisaneLogin(login)
+  setZapisaneHaslo(haslo)
 
 }
 
@@ -32,7 +50,7 @@ function zapisz(){
     <Form.Control
     type='text'
     value={adres}
-    placeholder='twój adres WWW'
+    placeholder='adres strony WWW'
     onChange={e=> setAdres(e.target.value)}
     />
     <Form.Label>Login:</Form.Label>
@@ -68,16 +86,16 @@ function zapisz(){
     )
 
     }
-    <Button type='submit' style={{backgroundColor: "blue"}} onClick={zapisz}>Zapisz</Button>
+    <Button  style={{backgroundColor: "blue"}} onClick={zapisz}>Zapisz</Button>
    
   </Form>
 
 
   <p style={{color: "blue", padding: "0.5rem"} }>
-    Adres:  {adres}
+    Adres:  {zapisaneadres}
   </p>
   <p>
-   Login:  {login}
+   Login:  {zapisanelogin}
   </p>
 
   {check ? (
@@ -86,10 +104,13 @@ function zapisz(){
   </p>
     ) : (
       <p>
-    Hasło: {haslo}
+    Hasło: {zapisanehaslo}
   </p>
     )
 }
+
+
+
     </div>
   
   );
